@@ -1,0 +1,29 @@
+input-training: [../data/our_data/train/front]
+label-training: ../data/our_data/train/bev+occlusion
+max-samples-training: 100000
+input-validation: [../data/our_data/val/front]
+label-validation: ../data/our_data/val/bev+occlusion
+max-samples-validation: 10000
+image-shape: [256, 512]
+one-hot-palette-input: one_hot_conversion/convert_new.xml
+one-hot-palette-label: one_hot_conversion/convert_new.xml
+
+model: architecture/uNetXST.py
+unetxst-homographies: ../preprocessing/homography_converter/uNetXST_homographies/our_data2.py
+epochs: 100
+batch-size: 5
+learning-rate: 1e-4
+# loss-weights: [0.000775274680 11.2203248 8.37874792 8.92785896 9.81264524 7.97347086]
+early-stopping-patience: 20
+
+save-interval: 5
+output-dir: output
+
+# for training continuation, evaluation and prediction only
+class-names: [road, sidewalk, obstacle, sky, vegetation]
+# model-weights:
+
+# for predict.py only
+input-testing: [../data/our_data/val/front]
+max-samples-testing: 10000
+# prediction-dir:

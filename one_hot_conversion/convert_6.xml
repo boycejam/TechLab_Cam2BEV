@@ -1,0 +1,49 @@
+<IKALabelDefinition>
+
+    <SLabel Name="road"              fromColour="131 77 125"     toValue="1" />
+    <SLabel Name="road1"             fromColour="135 80 124"     toValue="1" />
+    <SLabel Name="road2"             fromColour="133 78 123"     toValue="1" />
+    <SLabel Name="road3"             fromColour="133 79 123"     toValue="1" />
+    <SLabel Name="road4"             fromColour="130 74 118"     toValue="1" />
+    <SLabel Name="road5"             fromColour="129 72 118"     toValue="1" />
+    <SLabel Name="road6"             fromColour="121 68 125"     toValue="1" />
+
+    <SLabel Name="sidewalk"          fromColour="112 108 103"    toValue="2" />
+    <SLabel Name="sidewalk1"         fromColour="101 97 91"    toValue="2" />
+    <SLabel Name="sidewalk2"         fromColour="114 110 105"    toValue="2" />
+    <SLabel Name="sidewalk3"         fromColour="110 101 98"    toValue="2" />
+    <SLabel Name="sidewalk4"         fromColour="101 95 92"    toValue="2" />
+    
+    <SLabel Name="obstacle"          fromColour="76 29 121"      toValue="3" />
+    <SLabel Name="obstacle1"         fromColour="89 34 119"      toValue="3" />
+    <SLabel Name="obstactle2"        fromColour="65 18 107"      toValue="3" />
+    <SLabel Name="obstacle3"         fromColour="77 37 132"      toValue="3" />
+    <SLabel Name="obstacle4"         fromColour="82 33 119"     toValue="3" />
+    <SLabel Name="obstacle5"         fromColour="104 54 140"      toValue="3" />
+    <SLabel Name="obstacle5"         fromColour="104 54 140"      toValue="3" />
+    <SLabel Name="obstacle6"         fromColour="67 20 110"     toValue="3" />
+
+    <SLabel Name="building"          fromColour="98 100 100"     toValue="4" />
+    <SLabel Name="building1"         fromColour="67 64 61"     toValue="4" />
+    <SLabel Name="building2"         fromColour="87 79 73"     toValue="4" />
+    <SLabel Name="building3"         fromColour="92 88 83"     toValue="4" />
+    <SLabel Name="building4"         fromColour="67 70 69"     toValue="4" />
+
+    <SLabel Name="sky"               fromColour="95 154 194"     toValue="5" />
+    <SLabel Name="sky1"              fromColour="89 146 194"     toValue="5" />
+    <SLabel Name="sky2"              fromColour="97 150 190"     toValue="5" />
+    <SLabel Name="sky3"              fromColour="86 141 190"     toValue="5" />
+    <SLabel Name="sky4"              fromColour="91 144 186"     toValue="5" />
+    <SLabel Name="sky5"              fromColour="103 152 186"     toValue="5" />
+
+    <SLabel Name="vegetation"        fromColour="110 142 57"      toValue="6" />
+    <SLabel Name="vegetation1"       fromColour="122 151 67"      toValue="6" />
+    <SLabel Name="vegetation2"       fromColour="110 143 60"      toValue="6" />
+    <SLabel Name="vegetation3"       fromColour="108 137 56"      toValue="6" />
+    <SLabel Name="vegetation4"       fromColour="104 140 59"      toValue="6" />
+    <SLabel Name="vegetation5"       fromColour="88 117 31"      toValue="6" />
+    <SLabel Name="vegetation6"       fromColour="115 151 72"      toValue="6" />
+
+
+</IKALabelDefinition>
+

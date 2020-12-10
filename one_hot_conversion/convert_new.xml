@@ -1,0 +1,20 @@
+<IKALabelDefinition>
+
+    <SLabel Name="road"              fromColour="241 169 37"     toValue="1" />
+
+    <SLabel Name="sidewalk"          fromColour="122 113 97"    toValue="2" />
+    
+    <SLabel Name="obstacle"          fromColour="96 94 148"      toValue="3" />
+    <SLabel Name="garbage can"       fromColour="210 180 77"      toValue="3" />
+    <SLabel Name="fence"             fromColour="51 31 218"      toValue="3" />
+    <SLabel Name="traffic sign"      fromColour="239 31 92"      toValue="3" />
+    <SLabel Name="dynamic"           fromColour="33 20 43"      toValue="3" />
+    
+
+    <SLabel Name="sky"               fromColour="183 244 155"     toValue="4" />
+    <SLabel Name="cloud"             fromColour="207 248 132"     toValue="4" />
+
+    <SLabel Name="vegetation"        fromColour="170 252 0"      toValue="5" />
+    <SLabel Name="tree"              fromColour="128 48 71"      toValue="5" />
+    
+</IKALabelDefinition>
